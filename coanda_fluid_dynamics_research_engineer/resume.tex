@@ -1,0 +1,168 @@
+% LaTeX resume using res.cls
+%\documentclass[line,margin]{res} 
+\documentclass[letterpaper]{res} 
+
+%\documentclass{letter}
+
+%\topmargin=-0.25in
+%\textheight=9.5in
+%\oddsidemargin=-0.375in
+%\textwidth=6.625in
+
+\topmargin=-0.25in
+\textheight=9.5in
+\oddsidemargin=-0.0625in
+\textwidth=6in
+
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage{fouriernc}
+\usepackage[T1]{fontenc}
+\setlength{\headheight}{12pt}	   % make room for the header and footer
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+
+\lfoot{\hspace*{-\sectionwidth}Ian Joynes}
+\cfoot{}		% the center of the footer in empty
+\rfoot{Page \thepage}
+\pagestyle{fancy}
+\usepackage{tabularx}
+\usepackage{multirow}
+%\renewcommand{\sectionfont}{\scshape\bfseries}
+\usepackage{hyperref}
+\begin{document}
+\thispagestyle{empty}	% this page does not have a header/footer
+%\hspace{-\sectionwidth}
+\hspace{-0.56in}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+\begin{tabularx}{6.5in}{ @{}l R@{} }
+\multirow{3}{*}{\Huge Ian Joynes} &  P.O. Box: 1444, 34 Wolfe Ave. \\
+ & Deep River, Ontario, K0J 1P0 \\
+ & \href{mailto:ian@joynes.com}{ian@joynes.com}, 613-795-9171 \\
+\hline
+\end{tabularx}
+%\name{Ian Joynes}
+% \address used twice to have two lines of address
+% \address{34 Wolfe Ave., Deep River, Ontario, K0J 1P0}
+% \address{ian@joynes.com, 613-795-9171}
+
+ 
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\begin{resume} 
+\section{SUMMARY}
+\vspace{10pt}
+Master of Applied Science graduate with a research background in numerical modelling. Seeking an opportunity as a fluid dynamics research engineer with Coanda. 
+ 
+\section{EDUCATION}
+\vspace{10pt}
+{\bf Master of Applied Science, Mechanical Engineering, \hfill 2009 - 2013}\\
+{\bf Carleton University}
+\begin{itemize} \itemsep -2pt
+\item Thesis: ``Proof-of-Concept Inverse Micro-Scale Dispersion Modelling for Fugitive Emissions Quantification in Industrial Facilities''
+\item Presented extended abstracts at both the 2011 and 2012 Air \& Waste Management Association Annual Exhibition and Conference
+% \item Presented an extended abstract titled ``Adjoint Sensitivity Analysis for Fugitive Emissions Characterization on a Building Scale'' at the 2011 Air \& Waste Management Association Annual Exhibition and Conference
+\item Lead undergraduate tutorials in Fluid Mechanics, Thermodynamics and graded assignments
+\item Courses in Numerical Analysis, Computational Fluid Dynamics, Finite Element Analysis, Nuclear Engineering, Aerodynamics and Heat Transfer
+\item Awarded the 2010 and 2011 Graduate Scholarships
+\end{itemize}
+
+{\bf Bachelor of Engineering, Mechanical Engineering, \hfill 2005 - 2009}\\
+{\bf Carleton University}
+\begin{itemize} \itemsep -2pt
+\item Graduated with high distinction
+\item Final project modelling gas bearings for a supercritical gas turbine with ANSYS CFX
+\item Courses in C++ Programming, Numerical/Mathematical Methods, Fluid Mechanics, Thermodynamics, Heat Transfer, CFD and FEA
+\item Achieved the academic honour of Deans' List each year.
+\item Awarded the following scholarships: \hfill \\
+\hspace{200 mm}2005 Carleton University Entrance Scholarship \\
+\hspace{20 mm}2006 Clarence C. Gibson Scholarship \\
+\hspace{20 mm}2007 J. Lorne Gray Scholarship \\
+\hspace{20 mm}2008 A. Davidson Dunton Scholarship
+\end{itemize}
+
+\section{RELEVANT WORK EXPERIENCE}
+
+\vspace{10pt}
+{\bf Research Assistant, Carleton University \hfill 2009 \& 2014}
+\begin{itemize} \itemsep -2pt
+\item Developed computer programs in C, Fortran and MATLAB to locate and quantify pollution sources
+\item Experience using CFD (ANSYS CFX \& OpenFOAM), FEA (ANSYS \& Abaqus), grid generation (ANSYS ICEM) and post processing software (Tecplot)
+\item Experience with APIs such as the Intel Math Kernel Library, OpenMP and the Tecplot IO library
+\end{itemize}
+
+\vspace{10pt}
+{\bf AECL Student Employment, Chalk River \hfill 2005 - 2008} \\
+Completed three 4-month summer student placements and a 4-month high school co-op at AECL. \\ 
+\\
+\vbox{
+2008 - NRU Reactor Operations Support% (Supervised by: Tai-Lun Lau) 
+\begin{itemize} \itemsep -2pt
+\item Designed tools to open and inspect a faulty main heavy water check valve
+\item Designed a stand to hold a main heavy water check valve and duplicate the reactor orientation
+\item Assisted with main heavy water pump and motor replacements/alignments
+\item Created CAD drawings of tool components using SolidEdge 
+\end{itemize}
+} \\
+\\
+\vbox{
+2007 - Mechanical Equipment Development% (Supervised by: Dave Poff)
+\begin{itemize} \itemsep -2pt
+\item Assisted the Rolled Joint Qualification Group with joint rolling, leak testing and rig assembly for their proof of method for replacing calandria tubes
+\item Coauthored engineering reports on rolled joint qualification for reactor refurbishment
+\item Created Excel macros for automated data reduction of helium and water leak rates through rolled joints
+\item Created CAD models of test rigs using SolidEdge for reports illustrations
+\end{itemize}
+} \\
+\\
+\vbox{
+2006 - Mechanical Equipment and Seal Development% (Supervised by: Mitch King and Wai Wong)
+\begin{itemize} \itemsep -2pt
+\item Performed tensile strength tests on rubber replicating material and statistical analysis of test data
+\item Produced inspection documentation for dimensional quality assurance of pump seal parts
+\item Created CAD drawings using AutoCAD and SolidEdge of pump seal parts for inspection documentation
+\end{itemize}
+} \\
+\\
+\vbox{
+2005 - Mechanical Equipment and Seal Development% (Supervised by: Tim Sykes)
+\begin{itemize} \itemsep -2pt
+\item Refurbished a rig to test inflatable door seals
+\item Inspected and performed leak tests on inflatable door seals
+\item Created CAD drawings and animations of a proposed hot cell door seal replacement using AutoCAD, SolidEdge and NasTran
+\end{itemize}
+}
+\section{ACADEMIC EXPERIENCE}
+\vspace{10pt}
+{\bf Teaching Assistant, Carleton University \hfill 2009 - 2011}
+\begin{itemize} \itemsep -2pt
+\item Completed 2 academic years as a teaching assistant for Fluid Mechanics I and Thermodynamics I, wherein assistance was provided to undergraduate students with assigned problem sets
+\item Led an undergraduate laboratory experiment designed to calibrate a venturi flow meter with Bernoulli's principle
+\item Provided supplementary midterm and exam review sessions
+\item Provided additional one on one assistance outside of regularly scheduled tutorials
+\item Created a solutions manual for the Fluid Mechanics I course for the benefit of future teaching assistants.
+\item Graded assignments, tests, lab reports and midterms
+\end{itemize}
+
+{\bf Tutor, Carleton University \hfill 2005 - 2012}
+\begin{itemize} \itemsep -2pt
+\item Provided tutoring services for various graduate and undergraduate engineering courses including Numerical Methods, Mathematical Methods, Fluid Mechanics, Aerodynamics, Thermodynamics, Heat Transfer, Statics, Dynamics, Solids Mechanics, and Feedback Control Systems.
+\end{itemize}
+
+%\section{INTERESTS}
+%\vspace{20pt}
+%\begin{itemize} \itemsep -2pt
+%item Cycling, running, golf and skiing
+%\item Programming: Fortran, C/C++, Java, MATLAB, Maple, HTML, CSS and JavaScript
+%\end{itemize}
+
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
