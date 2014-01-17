@@ -10,6 +10,6 @@ I am a Master of Applied Science graduate in mechanical engineering, with a rese
 Sincerely,  
 Ian Joynes
 
-[resume.pdf](https://github.com/ijoynes/job_applications/coanda_fluid_dynamics_research_engineer/resume.pdf)  
-[cover_letter.pdf](https://github.com/ijoynes/job_applications/coanda_fluid_dynamics_research_engineer/cover_letter.pdf)  
-[transcript.pdf](https://github.com/ijoynes/job_applications/transcript_2014-01-07.pdf)  
+[resume.pdf](https://github.com/ijoynes/job_applications/blob/master/coanda_fluid_dynamics_research_engineer/resume.pdf)  
+[cover_letter.pdf](https://github.com/ijoynes/job_applications/blob/master/coanda_fluid_dynamics_research_engineer/cover_letter.pdf)  
+[transcript.pdf](https://github.com/ijoynes/job_applications/blob/master/transcript_2014-01-07.pdf)  
