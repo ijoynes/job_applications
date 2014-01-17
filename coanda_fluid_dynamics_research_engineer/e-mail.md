@@ -1,7 +1,7 @@
-from: <ian@joynes.com>  
-to: <hr@coanda.ca>  
-date: Thu, Jan 16, 2014 at 4:42 PM  
-subject: Fluid Dynamics Research Engineer Application (PM2013-08)  
+**From:** <ian@joynes.com>  
+**To:** <hr@coanda.ca>  
+**Date:** Thu, Jan 16, 2014 at 4:42 PM  
+**Subject:** Fluid Dynamics Research Engineer Application (PM2013-08)  
 
 To the Hiring Manager for Fluid Dynamics Research Engineer,
 
